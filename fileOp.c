@@ -7,7 +7,7 @@ int main()
    FILE *fptr;
 
   
-   fptr = fopen("C:\\programdosyasi.txt","w"); //Dosya adres
+   fptr = fopen("C:\\programdosyasi.txt","w"); //Dosya adres,write
 
    if(fptr == NULL) //dosya bulunamazsa
    {
