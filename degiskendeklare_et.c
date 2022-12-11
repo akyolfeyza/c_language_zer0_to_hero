@@ -3,7 +3,7 @@
 // Variable declaration:
 extern int a, b;
 extern int c;
-extern float f;
+extern float f; 
 
 int main () {
 
