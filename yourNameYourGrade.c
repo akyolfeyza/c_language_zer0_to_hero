@@ -5,8 +5,11 @@
 #include "string.h"
 
 int main() {
-    int name[20];
-    char grade;
+//     name char olacak
+    char name[20];
+//   grade ise int
+    int grade;
+//     I start working
     printf("Enter your name: ");
     scanf("%s", name);
     printf("Enter your grade: ");
