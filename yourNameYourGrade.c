@@ -20,4 +20,5 @@ int main() {
         printf("Your name is %s and your grade is %d, you failed; no worries try again.", name, grade);
     }
     return 0;
+    
 }
