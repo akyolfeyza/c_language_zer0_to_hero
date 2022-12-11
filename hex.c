@@ -1,9 +1,11 @@
-// BU programda adinizi yaziniz
-
 #include <stdio.h>
 #include "stdlib.h"
 
 int main(){
-    printf("Melisa");
+    char a='A';
+    char b='z';
+    printf("%d %d",a,b);
     return 0;
+
 }
+
