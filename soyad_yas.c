@@ -1,17 +1,26 @@
-// Soyadini ve yasini yaz. 
-//   yasini 2 ile carp
+//melisa
 #include <stdio.h>
+#include <string.h>
 
- int main(){
-	char name[10] = "Güller";
-	char surname[10] = "Kalyoncu";
-	int age = 20;
-	age *= 2;
+int main(){
+    char name[20];
+    int age;
 
-	printf("Isim : %s \n",name);	
-	printf("Soyisim : %s \n",surname);   
-	printf("Age : %d \n",age);
-	
-	return 0;
-	
- }
+    printf("adını yaz: ");
+    scanf("%s", name);
+    printf("merhaba %s \n", name);
+
+    printf("yaşını yaz: ");
+    scanf("%d", &age);
+    printf("\nyaşın %d\n", age);
+    if(strcmp(name,"melisa")==0 && age >= 20)
+    {
+        printf("hoş geldin");
+    }
+    else
+    {
+        printf("tekrar dene");
+    }
+}
+
+
